@@ -1,7 +1,10 @@
-[Slides available here](https://docs.google.com/presentation/d/1QeK3f9Ycae0oLG5CCgrLsYbxTNd7iamPBGkotvxWCzI/edit?usp=sharing)
+1. Link : https://mfrachet.github.io/create-frontend-framework/intro.html
 
-_This project aims to provide a step by step implementation of a "frontend framework". It's only for learning purpose and allows to take a first shot of internal stuff such as templating, state management, and the use of Virtual DOMs._
+2. Step
+- $ git clone https://github.com/mfrachet/create-frontend-framework
+- $ cd create-frontend-framework
+- $ yarn && yarn start
+- Install parcel : $ yarn global add parcel-bundler
+- (Fix upath ver incompatibility) $ yarn --ignore-engines install
+- Run : $ yarn start (displays on http://localhost:1234/)
 
-[NEW: here's another way to implement it using React API and JSX](https://github.com/mfrachet/create-frontend-framework/tree/jsx)
-
-**NEW: the project is now available on github pages! https://mfrachet.github.io/create-frontend-framework/**
